@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Definición del schema de Usuarios
-let productoSchema = new mongoose.Schema({
+let usuarioSchema = new mongoose.Schema({
     login: {
         type: String,
         minlength: 5,
